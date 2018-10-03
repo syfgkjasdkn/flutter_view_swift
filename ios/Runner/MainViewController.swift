@@ -13,7 +13,7 @@ class MainViewController: UIViewController {
       nativeViewController?.delegate = self
     case "FlutterViewControllerSegue":
       flutterViewController = segue.destination as? FlutterViewController
-      messageChannel = FlutterBasicMessageChannel(name: "channel",
+      messageChannel = FlutterBasicMessageChannel(name: "increment",
                                                   binaryMessenger: flutterViewController!,
                                                   codec: FlutterStringCodec.sharedInstance())
       messageChannel?.setMessageHandler { [weak self] (message, reply) in
