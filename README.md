@@ -1,8 +1,3 @@
-# flutter_view_swift
+Translation of [flutter/examples/flutter_view](https://github.com/flutter/flutter/tree/master/examples/flutter_view) in swift.
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+![demo](https://github.com/syfgkjasdkn/flutter_view_swift/blob/master/demo.gif)
